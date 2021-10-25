@@ -17,7 +17,6 @@ form.onsubmit = (event) => {
     }
     
     const item = document.createElement('li')
-    const div = document.createElement('div')
     const span = document.createElement('span')
     const button = document.createElement('button')
     const id = `id-${contador}`
