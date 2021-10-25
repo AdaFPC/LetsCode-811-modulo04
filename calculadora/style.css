@@ -1,0 +1,11 @@
+body{
+    margin: 0 10vw; 
+}
+h1, h2{
+    padding-left: 10px;
+}
+div{
+    padding: 10px;
+    margin: 5px;
+    border: 1px black solid;
+}

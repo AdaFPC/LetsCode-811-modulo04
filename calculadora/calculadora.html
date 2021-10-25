@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <h2>Digite um número:</h2>
+    <div>
+        <input type="number" name="number" id="num">
+    </div>
+    
+    <div>
+        <input type="radio" name="operacao" value="+">Soma(+)
+        <input type="radio" name="operacao" value="-">Subtração(-)
+        <input type="radio" name="operacao" value="*">Multiplicação(*)
+        <input type="radio" name="operacao" value="/">Divisão(/)
+    </div>
+    <div>
+        <button type="button" id="enter">Enter</button>    
+        <button type="button" id="equal">Igual</button>
+        <button type="button" id="reset">Clear</button>
+    </div>
+    <div>
+        <p id="answer">Resultado: </p>
+    </div>
+    
+    <script src="cal.js"></script>
+</body>
+</html>
