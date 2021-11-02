@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #DBE2EF;
+  margin: 0 50px;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+  font-weight: 500;
+  color: #ffffff;
+  background: #112d4e;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+p{
+    font-weight: 500;
+    padding: 10px;
+    margin: 20px;
+}
+
+ul{
+    width: 350px;
+    height: 500px;
+    border: 2px #112D4E solid;
+    padding: 10px;
+    margin: 20px;
+    background: #f9f7f7;
+}
+li{
+    margin: 20px;
+    list-style-type: square;
+}
